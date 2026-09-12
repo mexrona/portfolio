@@ -28,7 +28,7 @@ export function Footer({ onContactClick }: FooterProps) {
         <div className="max-w-6xl mx-auto px-5 md:px-10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-display text-base font-semibold text-ink">Мехрона</p>
           <p className="text-xs text-stone-500">
-            © 2026 · Лендинги и системы онлайн-записи для малого бизнеса
+            © 2026 · Лендинги для малого бизнеса
           </p>
         </div>
       </div>
