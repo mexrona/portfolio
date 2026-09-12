@@ -52,7 +52,7 @@ export function Contact({ isOpen, onClose }: ContactProps) {
           </a>
 
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=mexronatuichieva@gmail.com"
+            href="mailto:tuichievamexrona@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 bg-paper hover:bg-stone-50 transition-colors group"
