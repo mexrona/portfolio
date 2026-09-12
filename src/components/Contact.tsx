@@ -24,13 +24,9 @@ export function Contact({ isOpen, onClose }: ContactProps) {
           <X size={18} />
         </button>
 
-        <h2 className="font-display text-2xl font-semibold text-ink mb-3">
+        <h2 className="font-display text-2xl font-semibold text-ink mb-3 text-center" style={{ margin: '1.5rem 0' }}>
           Давайте обсудим проект
         </h2>
-        <p className="text-stone-600 leading-relaxed mb-8">
-          Напишите мне — обсудим вашу нишу, текущий процесс и где теряются клиенты.
-          Предложу решение и сроки.
-        </p>
 
         <div className="space-y-px bg-stone-200/70 border border-stone-200/70">
           <a
@@ -76,7 +72,7 @@ export function Contact({ isOpen, onClose }: ContactProps) {
             className="flex items-center gap-4 p-4 bg-paper hover:bg-stone-50 transition-colors group"
           >
             <div className="w-10 h-10 flex items-center justify-center text-accent">
-              <Send size={18} />
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" strokeWidth="10" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M15.63 40.465c8.083 7.193 27.86-1.166 27.783-15.85C43.36 14.546 35.107 4.59 24.873 4.5c-9.538-.083-19.648 5.962-20.23 17.767c-.172 3.515 0 8.859 1.231 11.73c2.335 6.7.113 8.477 2.804 9.328q3.617.9 6.953-2.861"/></svg>
             </div>
             <div className="flex-1">
               <div className="text-ink font-medium text-sm">MAX</div>
@@ -89,7 +85,7 @@ export function Contact({ isOpen, onClose }: ContactProps) {
         </div>
 
         <p className="mt-6 text-xs text-stone-500 text-center">
-          Обычно отвечаю в течение дня. Первая консультация — бесплатно.
+          Обычно отвечаю в течение дня.
         </p>
       </div>
     </div>
