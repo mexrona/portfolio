@@ -34,7 +34,7 @@ export function Contact({ isOpen, onClose }: ContactProps) {
 
         <div className="space-y-px bg-stone-200/70 border border-stone-200/70">
           <a
-            href="https://t.me/"
+            href="https://t.me/mexronatuichieva"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 bg-paper hover:bg-stone-50 transition-colors group"
@@ -52,7 +52,7 @@ export function Contact({ isOpen, onClose }: ContactProps) {
           </a>
 
           <a
-            href="mailto:hello@example.com"
+            href="mailto:mexronatuichieva@gmail.com"
             className="flex items-center gap-4 p-4 bg-paper hover:bg-stone-50 transition-colors group"
           >
             <div className="w-10 h-10 flex items-center justify-center text-accent">
