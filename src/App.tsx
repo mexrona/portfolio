@@ -25,7 +25,7 @@ function App() {
         <About onContactClick={openContact} />
         <CaseStudies />
         <Process />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <FAQ />
       </main>
       <Footer onContactClick={openContact} />

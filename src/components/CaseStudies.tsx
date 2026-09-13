@@ -48,15 +48,22 @@ function CaseBlock({
             <h3 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-2">
               {caseData.title}
             </h3>
-            <p className="text-stone-700 max-w-xl">{caseData.problem}</p>
+            <p className="text-stone-700 max-w-xl">
+              {caseData.description}
+            </p>
+            <p className="text-stone-700 max-w-xl" style={{ marginTop: '1.5rem', fontStyle: 'italic', textDecoration: 'underline', textDecorationThickness: '1px', fontWeight: '500'
+             }}>
+              {caseData.priceAndTimeDescription}
+            </p>
           </div>
           <div className="flex flex-col items-start md:items-end gap-3">
             <button
               onClick={onSelect}
-              className="inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-accent transition-colors link-underline"
+              className="inline-flex items-center gap-2 text-sm font-medium text-ink transition-colors"
+              style={{ cursor: 'default' }}
             >
-              Подробнее
-              <ArrowUpRight size={16} />
+              {caseData.priceAndTime}
+              {/* <ArrowUpRight size={16} /> */}
             </button>
             <a
               href={caseData.liveUrl}
@@ -100,15 +107,19 @@ function CaseBlock({
             {caseData.title}
           </h3>
           <p className="text-stone-700 leading-relaxed mb-6 max-w-md">
-            {caseData.problem}
+            {caseData.description}
+          </p>
+          <p className="text-stone-700 leading-relaxed mb-6 max-w-md" style={{ fontStyle: 'italic', textDecoration: 'underline', textDecorationThickness: '1px', fontWeight: '500' }}>
+            {caseData.priceAndTimeDescription}
           </p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <button
               onClick={onSelect}
-              className="inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-accent transition-colors link-underline"
+              className="inline-flex items-center gap-2 text-sm font-medium text-ink transition-colors"
+              style={{ cursor: 'default' }}
             >
-              Подробнее
-              <ArrowUpRight size={16} />
+              {caseData.priceAndTime}
+              {/* <ArrowUpRight size={16} /> */}
             </button>
             <a
               href={caseData.liveUrl}
@@ -277,15 +288,14 @@ export function CaseStudies() {
       <div className="max-w-6xl mx-auto px-5 md:px-10">
         <div ref={ref} className={`reveal ${visible ? 'visible' : ''} max-w-2xl mb-12`}>
           <p className="text-xs uppercase tracking-[0.2em] text-stone-500 mb-4 font-medium">
-            Кейсы
+            Опыт
           </p>
           <h2 className="font-display text-3xl md:text-4xl font-normal text-ink tracking-tight leading-tight">
-            Три проекта — три решения
+            Мои работы
           </h2>
           <p className="mt-5 text-stone-600 leading-relaxed">
-            Каждый кейс — не просто сайт, а решение конкретной проблемы бизнеса.
-            Нажмите «Подробнее», чтобы увидеть полную картину.
-          </p>
+            Нажмите «Открыть сайт», чтобы увидеть проект целиком.
+          </p>     
         </div>
 
         <div className="space-y-16 md:space-y-24">
@@ -300,9 +310,9 @@ export function CaseStudies() {
         </div>
       </div>
 
-      {selectedCase && (
+      {/*selectedCase && (
         <CaseModal caseData={selectedCase} onClose={() => setSelectedCase(null)} />
-      )}
+      )*/}
     </section>
   );
 }

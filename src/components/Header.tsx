@@ -15,10 +15,9 @@ export function Header({ onContactClick }: HeaderProps) {
   }, []);
 
   const navLinks = [
-    { label: 'Услуги', href: '#services' },
-    { label: 'Кейсы', href: '#cases' },
+    { label: 'Услуга', href: '#services' },
+    { label: 'Опыт', href: '#cases' },
     { label: 'Процесс', href: '#process' },
-    { label: 'Отзывы', href: '#testimonials' },
     { label: 'Вопросы', href: '#faq' },
   ];
 

@@ -20,7 +20,7 @@ export function Hero({ onContactClick }: HeroProps) {
 
         {/* Subtitle */}
         <p className="mt-5 text-lg md:text-xl text-stone-600 max-w-2xl leading-relaxed">
-          Разрабатываю лендинги для малого бизнеса и частных специалистов — от структуры до запуска.
+          Разрабатываю лендинги для малого бизнеса и частных специалистов – от структуры до запуска.
         </p>
 
         {/* CTAs */}

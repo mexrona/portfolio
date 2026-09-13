@@ -12,7 +12,7 @@ export function Footer({ onContactClick }: FooterProps) {
             Готовы обсудить проект?
           </h2>
           <p className="mt-4 text-stone-600 leading-relaxed">
-            Обсудим вашу задачу и предложу решение. Запуск — за 1 день.
+            Запуск – за 1 день.
           </p>
           <button
             onClick={onContactClick}
