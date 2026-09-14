@@ -11,9 +11,9 @@ export function Footer({ onContactClick }: FooterProps) {
           <h2 className="font-display text-3xl md:text-4xl font-normal text-ink tracking-tight text-balance">
             Готовы обсудить проект?
           </h2>
-          <p className="mt-4 text-stone-600 leading-relaxed">
+          {/* <p className="mt-4 text-stone-600 leading-relaxed">
             Запуск – за 1 день.
-          </p>
+          </p> */}
           <button
             onClick={onContactClick}
             className="mt-8 inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-paper bg-ink hover:bg-accent transition-colors duration-300"

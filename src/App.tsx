@@ -22,11 +22,11 @@ function App() {
       <main>
         <Hero onContactClick={openContact} />
         <Services />
-        <About onContactClick={openContact} />
         <CaseStudies />
         <Process />
         {/* <Testimonials /> */}
         <FAQ />
+        <About onContactClick={openContact} />
       </main>
       <Footer onContactClick={openContact} />
       <Contact isOpen={contactOpen} onClose={closeContact} />

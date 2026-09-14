@@ -16,7 +16,7 @@ export function Header({ onContactClick }: HeaderProps) {
 
   const navLinks = [
     { label: 'Услуга', href: '#services' },
-    { label: 'Опыт', href: '#cases' },
+    { label: 'Работы', href: '#cases' },
     { label: 'Процесс', href: '#process' },
     { label: 'Вопросы', href: '#faq' },
   ];
