@@ -76,7 +76,7 @@ export function Header({ onContactClick }: HeaderProps) {
       </div>
 
       <div className={`lg:hidden overflow-hidden transition-all duration-300 ${menuOpen ? 'max-h-96 mt-3' : 'max-h-0'}`}>
-        <nav className="max-w-6xl mx-auto px-5 md:px-10 flex flex-col gap-1 pb-4">
+        <nav className="max-w-6xl mx-auto px-5 md:px-10 flex flex-col gap-1 pb-4" style={{backgroundColor: '#f7f5f1'}}>
           {navLinks.map((link) => (
             <button
               key={link.href}
